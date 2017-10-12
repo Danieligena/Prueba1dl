@@ -1,0 +1,370 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+/* NAV BAR */
+
+nav {
+	position: fixed;
+	background-color: #ff9e05;
+	height: 140px;
+	z-index: 100;
+	width: 100%;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+}
+
+nav h1 img {
+	margin-top: -17px;
+	margin-bottom: 5px;
+}
+
+nav ul {
+	margin-top: -8px;
+	text-align: center;
+}
+
+nav ul li {
+	font-weight: bold;
+	display: inline-block;
+	list-style: none;
+	padding-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+nav ul li a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* -------------------- INDEX + FOOTER --------------------*/
+
+/* BANNER */
+
+.banner {
+	padding-top: 150px;
+	color: white;
+	background-image: url(../images/bannerbg.jpg);
+	background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.banner h1, .banner h3, .banner h4 {
+	padding-left: 20px;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+.banner h1 {
+	font-size: 6rem;
+	padding-top: 170px;
+}
+
+.banner h3 {
+	font-size: 3rem;
+}
+
+.banner h4 {
+	font-size: 2rem;
+	padding-bottom: 50px;
+}
+
+/* NEWS */
+
+.news_title {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.news_title h2 {
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.news_thumb {
+	margin-bottom: 40px;
+}
+
+.news_thumb h3, .news_thumb p {
+	margin: auto;
+	width: 90%;
+	padding-bottom: 20px;
+}
+
+.news_thumb button {
+	padding: 8px 18px;
+	margin-left: 5%;
+}
+
+.news_thumb button a {
+	color: #fff;
+}
+
+.news_thumb button a:hover {
+	text-decoration: none;
+}
+
+.news_thumb h3 {
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+.news_thumb h3 a {
+	color: #ff7f15;
+}
+
+/* DONATE */
+
+.donate {
+	color: white;
+	background-image: url(../images/donatebg.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin-bottom: 0;
+}
+
+.donate h2, .donate p {
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+.donate_info {
+	background-color: rgba(158, 22, 0, .4);
+	border: none;
+	padding: 15px 15px;
+}
+
+/* FOOTER */
+
+footer {
+	background-image: url(../images/footerbg.jpg);
+	background-repeat: repeat;
+	color: #fff;
+	padding-bottom: 50px;
+}
+
+/* contact info */
+
+.contact_info {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.contact_icon {
+	font-size: 4rem;
+}
+
+a.contact_icon {
+	color: #ff9e05;
+	padding-right: 10px
+}
+
+a.contact_icon:hover {
+	color: #e5640c;
+}
+
+/* contact form */
+
+.contact_form {
+	padding-bottom: 25px;
+}
+
+.contact_form h3, .map h3 {
+	padding-bottom: 15px;
+}
+
+.contact_form input, .contact_form textarea {
+	font-size: 1.6rem;
+	color: #6b6b6b;
+	padding: 3px 4px;
+	width: 70%;
+	margin: 5px 0;
+	border-radius: 5px;
+	border: none;
+}
+
+.contact_form .button {
+	background-color: #6b6b6b;
+	color: #fff;
+	width: 36%;
+	margin: auto;
+}
+
+.contact_form .button:hover {
+	background-color: #606060;
+}
+
+/* -------- INDEX + NAV + FOOTER DESKTOP VER. -------- */
+
+@media (min-width: 992px) {
+
+/* NAV BAR */
+
+nav {
+	height: 87px;
+}
+
+nav h1 {
+	text-align: left;
+}
+
+nav ul {
+	padding-top: 35px;
+	padding-right: 25px;
+	text-align: right;
+}
+
+nav ul li {
+	font-size: 2rem;
+	padding: 0 15px;
+}
+
+nav h1 img.center-block {
+	margin-left: 0
+}
+
+/* NEWS */
+
+.news_thumb {
+	min-height: 28em;
+}
+
+.news_thumb p {
+	width: 90%;
+	margin: auto;
+}
+
+/* DONATE */
+
+.donate {
+	min-height: 300px;
+}
+
+/* FOOTER */
+
+/* contact form */
+
+.contact_form h3, .map h3 {
+	padding-top: 50px;
+}
+
+}
+
+
+
+
+/* -------- ABOUT US-------- */
+
+/* Title */
+
+.title {
+	padding-top: 170px;
+	padding-bottom: 50px;
+	background-color: #ff7f15;
+	color: #fff;
+	margin: 0;
+}
+
+.title h1 {
+	padding-left: 20px;
+	text-shadow: 1px 1px 2px rgba(90, 11, 0, 0.8);
+	font-size: 4rem;
+}
+
+/* Info 1 */
+
+.info_1 {
+	background-image: url(../images/about_us_col.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin-bottom: 0;
+}
+
+.info_1a {
+	padding-top: 40px;
+}
+
+.info_1a h3 {
+	margin-top: 0;
+	margin-bottom: 25px;
+	color: #ff7f15;
+}
+
+.border_top {
+	max-width: 80%;
+	margin: auto;
+	border-top: 1px solid #a3a3a3;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+/* Info 2 */
+
+.info_2a h3 {
+	margin-top: 0;
+	margin-bottom: 25px;
+	color: #ff7f15;
+}
+
+.info_2img {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.info_2img p {
+	margin-top: 15px;
+}
+
+/* -------- ABOUT US DESKTOP VER. -------- */
+
+@media (min-width: 992px) {
+
+/* Title */
+
+.title {
+	padding-top: 130px;
+	padding-bottom: 60px;
+}
+
+/* Info 1 */
+
+.info_1b {
+	padding-top: 40px;
+}
+
+}
+
+
+
+
+/* -------- NEWS-------- */
+
+
+
+/* -------- NEWS DESKTOP VER. -------- */
+
+@media (min-width: 992px) {
+
+}
