@@ -121,12 +121,12 @@ nav ul li a:active {
 	text-decoration: none;
 }
 
-.news_thumb h3 {
+.news_thumb h3, .news_1 h2 {
 	padding-top: 15px;
 	font-weight: bold;
 }
 
-.news_thumb h3 a {
+.news_thumb h3 a, .news_1 h2 {
 	color: #ff7f15;
 }
 
@@ -361,10 +361,28 @@ nav h1 img.center-block {
 
 /* -------- NEWS-------- */
 
+.border_top2 {
+	max-width: 90%;
+	margin: auto;
+	border-top: 1px solid #a3a3a3;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
 
+.news_2 {
+	margin-bottom: 40px;
+}
+
+.news_2 img {
+	margin-bottom: 20px;
+}
 
 /* -------- NEWS DESKTOP VER. -------- */
 
 @media (min-width: 992px) {
+
+.news_2 p {
+	font-size: 1.5rem;
+}
 
 }
